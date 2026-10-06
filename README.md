@@ -62,3 +62,29 @@ driver.find_element(By.ID,"vfb-4").click()
 time.sleep(10)
 driver.quit()
 ```
+## What this code does:
+
+Here’s a clean **GitHub-ready description** you can copy-paste:
+
+### Selenium Demo Form Automation
+
+* Automated the **Vinoth QA Academy Demo Form** using **Selenium WebDriver with Python**.
+* Launched the website using **Microsoft Edge WebDriver**.
+* Entered **first name** and **last name**.
+* Selected required **radio buttons/checkboxes**.
+* Filled in **street address, apartment/suite, city, state, and ZIP code**.
+* Selected **country** from a dropdown using Selenium's `Select` class.
+* Entered and validated an **email address**.
+* Entered a **demo date**.
+* Selected **hour and minute** from dropdown menus.
+* Entered a **mobile number**.
+* Filled the **query/message field** with a course-related question.
+* Located form elements using Selenium **ID locators**.
+* Used Selenium methods such as `send_keys()`, `clear()`, and `click()`.
+* Used `Select` for handling **HTML dropdown elements**.
+* Submitted the completed form automatically.
+* Added delays using `time.sleep()` to allow the page and form actions to complete.
+* Closed the browser using `driver.quit()` after execution.
+
+**Technologies Used:**
+`Python` | `Selenium WebDriver` | `Microsoft Edge` | `HTML Form Automation` | `Web Element Locators` | `Dropdown Handling`
